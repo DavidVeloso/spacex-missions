@@ -3,7 +3,7 @@ import Image from 'next/image';
 import { Skeleton } from '@chakra-ui/react';
 
 interface IImageLoaderProps {
-  src: string;
+  src: string | StaticImageData;
   alt: string;
   height: number;
   width: number;
