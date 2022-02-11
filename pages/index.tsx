@@ -60,8 +60,6 @@ export async function getStaticProps() {
     query: GET_MISSIONS_QUERY,
     variables: {
       missionName: '',
-      // limit: 10,
-      // offset: 0
     }
   });
 

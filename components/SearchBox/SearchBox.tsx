@@ -27,10 +27,9 @@ const SearchBox: FC<ISearchBoxProps> = ({ onChange }) => {
   return (
     <Stack isInline maxWidth="450px" width="450px">
       <InputGroup>
-        <InputLeftElement
-          pointerEvents='none'
-          children={<SearchIcon color='gray.400' />}
-        />
+        <InputLeftElement>
+          <SearchIcon color='gray.400' />
+        </InputLeftElement>
         <Input
           placeholder='Search missions'
           backgroundColor='white'
