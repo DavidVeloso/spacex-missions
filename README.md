@@ -8,6 +8,7 @@
 - [x] Use one of the server-side functions NextJS provides to fetch data, if not explain why not.
 - [x] Use apollo graphql to establish connection to endpoint
 - [x] Make it mobile responsive.
+- [x] Modal with mission info and galery
 
 ### Libraries
 - [next](https://nextjs.org/) - The react framework for production and server side settings.
