@@ -16,21 +16,18 @@
     "moduleResolution": "node",
     "resolveJsonModule": true,
     "isolatedModules": true,
-    "baseUrl": ".", // check if need
+    "baseUrl": ".",
     "jsx": "preserve",
     "paths": {
       "@components/*": [
         "components/*"
       ],
+      "@graphql/*": [
+        "graphql/*"
+      ],
       "@shared/*": [
         "shared/*"
-      ]
-      // "@config/*": [
-      //   "config/*"
-      // ],
-      // "@graphql/*": [
-      //   "graphql/*"
-      // ]
+      ],
     },
     "incremental": true
   },

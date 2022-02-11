@@ -1,34 +1,19 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+### SpaceX Missions
 
-## Getting Started
+### Requirements/Features.
+- [x] Should be NextJs project, using create-next-app is totally perfect
+- [x] Should use typescript
+- [x] Preferably use chakra ui for styled components.
+- [x] Add a search bar that can filter through missions.
+- [x] Use one of the server-side functions NextJS provides to fetch data, if not explain why not.
+- [x] Use apollo graphql to establish connection to endpoint
+- [x] Make it mobile responsive.
 
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+### Libraries
+- [next](https://nextjs.org/) - The react framework for production and server side settings.
+- [apollo](https://www.apollographql.com/docs/react/) - Client for react to connect graphql.
+- [chakra-ui](https://chakra-ui.com/) - A simple, modular and accessible component library.
+ 
+### [TODO]
+- Add pagination component
+- Add unit testings Jest or E2E using Cypress

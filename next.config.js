@@ -9,7 +9,7 @@ const nextConfig = {
       "live.staticflickr.com",
       "imgur.com",
       "i.imgur.com",
-      "images2.imgbox.com"
+      "images2.imgbox.com",
     ]
   },
 }

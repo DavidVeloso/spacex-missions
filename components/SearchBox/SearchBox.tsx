@@ -10,7 +10,7 @@ interface ISearchBoxProps {
 
 const SearchBox: FC<ISearchBoxProps> = ({ onChange }) => {
 
-  const [search, setSearch] = useState("");
+  const [search, setSearch] = useState('');
   const debouncedValue = useDebounce<string>(search);
 
   useEffect(() => {
@@ -20,12 +20,12 @@ const SearchBox: FC<ISearchBoxProps> = ({ onChange }) => {
 
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     setSearch(e.target.value);
-  }
+  };
 
-  const handleClear = () => setSearch("");
+  const handleClear = () => setSearch('');
 
   return (
-    <Stack isInline maxWidth="450px" width="450px">
+    <Stack isInline maxWidth='450px' width='450px'>
       <InputGroup>
         <InputLeftElement>
           <SearchIcon color='gray.400' />
@@ -40,7 +40,7 @@ const SearchBox: FC<ISearchBoxProps> = ({ onChange }) => {
           aria-label='Clear'
           colorScheme='bg'
           onClick={handleClear}
-          icon={<CloseIcon color={search !== '' ? 'red' : ''} />}
+          icon={<CloseIcon color='gray.400' />}
           disabled={search === ''}
         />
       </InputGroup>

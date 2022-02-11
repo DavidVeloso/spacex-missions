@@ -1,8 +1,7 @@
 import { ApolloClient, InMemoryCache } from '@apollo/client';
 
 const ApClient = new ApolloClient({
-  uri: "https://api.spacex.land/graphql/",
-  // uri: process.env.SPACEX_GRAPHQL_ENDPOINT,
+  uri: process.env.NEXT_PUBLIC_SPACEX_ENDPOINT,
   cache: new InMemoryCache(),
 });
 

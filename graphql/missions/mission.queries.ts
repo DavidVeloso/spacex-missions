@@ -3,7 +3,7 @@ import { gql } from '@apollo/client';
 export const GET_MISSIONS_QUERY = gql`
   query GetMissions($missionName: String!) {
     launchesPast(
-      limit: 10, 
+      limit: 20, 
       order: "desc", 
       sort:"launch_date_local", 
       find: {mission_name: $missionName}

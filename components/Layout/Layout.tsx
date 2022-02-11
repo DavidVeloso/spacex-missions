@@ -18,12 +18,11 @@ const HeadMeta = () => {
   return (
     <Head>
       <title>SpaceX Missions</title>
-      <meta name="description" content="Archie’s coding challenge" />
-      <meta name="viewport" content="width=device-width, initial-scale=1" />
-      <link rel="icon" href="/favicon.ico" />
+      <meta name='description' content="Archie’s coding challenge" />
+      <meta name='viewport' content='width=device-width, initial-scale=1' />
     </Head>
   );
-}
+};
 
 const Footer = () => {
   return (
@@ -34,8 +33,8 @@ const Footer = () => {
         </Link>
       </Center>
     </Box>
-  )
-}
+  );
+};
 
 const Layout: FC<ILayoutProps> = ({ children }: ILayoutProps) => (
   <Stack bg='gray.50'>
@@ -44,6 +43,6 @@ const Layout: FC<ILayoutProps> = ({ children }: ILayoutProps) => (
     {children}
     <Footer />
   </Stack>
-)
+);
 
-export default Layout
+export default Layout;
